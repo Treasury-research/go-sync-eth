@@ -3,7 +3,7 @@ package chain
 import "github.com/chain5j/chain5j-pkg/util/hexutil"
 
 type BlockHeader struct {
-	Number     hexutil.Uint64 `json:"number"`
+	Number     hexutil.Uint64
 	Hash       string
 	ParentHash string
 	Coinbase   string

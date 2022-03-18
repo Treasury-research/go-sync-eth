@@ -19,17 +19,15 @@ package main
 import (
 	"github.com/Treasury-research/go-sync-eth/cmd"
 	"log"
-	"runtime"
 )
 
 func main() {
 	log.Printf("main start !!!")
 
-	maxProces := runtime.NumCPU()
-	if maxProces > 1 {
-		maxProces -= 1
-	}
-	runtime.GOMAXPROCS(maxProces)
-
+	//maxProces := runtime.NumCPU()
+	//if maxProces > 1 {
+	//	maxProces -= 1
+	//}
+	//runtime.GOMAXPROCS(maxProces)
 	cmd.Execute()
 }

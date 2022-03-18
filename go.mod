@@ -4,16 +4,19 @@ go 1.18
 
 require (
 	github.com/chain5j/chain5j-pkg v1.0.2
+	github.com/chain5j/log15 v1.0.12
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.3
 	github.com/spf13/viper v1.7.1
+
 )
 
 require (
 	github.com/chain5j/logger v0.0.2 // indirect
 	github.com/deckarep/golang-set v1.8.0 // indirect
+	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
